@@ -116,7 +116,13 @@ DB_NAME=your_db_name
 PINECONE_API_KEY=your_pinecone_api_key  
 PINECONE_INDEX_NAME=your_index  
 GOOGLE_API_KEY=your_google_api_key  
-GROQ_API_KEY=your_groq_api_key  
+# Recommended (Organizer Suggested)
+SCALEDOWN_API_KEY=your_scaledown_api_key
+
+# Optional (Alternative LLM Backend)
+# If using Groq instead of ScaleDown,
+# replace chat_query.py with groq_chat_query.txt implementation.
+GROQ_API_KEY=your_groq_api_key
 
 3️⃣ Virtual Environment  
 uv venv  
